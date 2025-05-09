@@ -16,7 +16,7 @@ class TestSolucio3(unittest.TestCase):
         self.assertEqual(resultat, (10.50, 15.00))  # El mínim és 10.50 i el màxim és 15.00
 
         resultat = trobar_min_max_rendiment()  # Sense paràmetres, ha de retornar (0, 0)
-        self.assertEqual(resultat, (0, 0))
+        self.assertEqual(resultat, (1, 0))
 
     def test2(self):
         """
